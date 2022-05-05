@@ -1,0 +1,33 @@
+.header__address-nav {
+    margin-left: auto;
+}
+
+.address-nav {
+    display: flex;
+}
+
+.address-nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.address-nav__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $text-color;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        color: $accent-color;
+    }
+}
+
+.address-nav__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

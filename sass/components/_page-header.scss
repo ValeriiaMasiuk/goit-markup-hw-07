@@ -1,0 +1,9 @@
+.header {
+    border-width: 1600px;
+    border-bottom: 1px solid #ECECEC;
+
+    &-nav {
+        display: flex;
+        align-items: center;
+    }
+}

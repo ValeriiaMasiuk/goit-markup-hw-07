@@ -1,0 +1,48 @@
+.team {
+    background-color: $button-background-color;
+}
+
+.team__title {
+    @extend %title;
+    margin-bottom: 50px;
+}
+
+.team__list {
+    display: flex;
+}
+
+.team__item {
+    width: 270px;
+
+    background-color: $secondary-color;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.team-member {
+    padding: 30px 32px;
+}
+
+.team-member__name {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.team-member__job {
+    margin-bottom: 16px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    color: $text-color;
+}
